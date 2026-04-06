@@ -58,7 +58,7 @@ const Header = () => {
         {/* Mobile Menu */}
         <div className="md:hidden">
           <Sheet>
-            <SheetTrigger render={<Button variant="ghost" size="icon" nativeButton={false} />} nativeButton={false}>
+            <SheetTrigger nativeButton={true} render={<Button variant="ghost" size="icon" />}>
               <Menu size={24} />
             </SheetTrigger>
             <SheetContent side="left" className="w-[300px] sm:w-[400px]">
